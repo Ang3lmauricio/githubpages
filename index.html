@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog de Acapulco</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #0077cc;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: #005faa;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        main {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        section {
+            flex: 3;
+            background: white;
+            padding: 15px;
+            margin-right: 10px;
+            border-radius: 5px;
+        }
+        aside {
+            flex: 1;
+            background: #ddd;
+            padding: 10px;
+            border-radius: 5px;
+        }
+      
+        #Foto1{
+             width: 350px;
+             height: 220px;
+        }
+        #foto2{
+            width: 350px;
+            height: 220px;
+        }
+        #foto3{
+            width: 350px;
+            height: 220px;
+        }
+        #foto4{
+            width: 250px;
+            height: 400px;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        form {
+            margin-top: 10px;
+        }
+        input, textarea, button {
+            display: block;
+            width: 80%;
+            margin: 5px auto;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mis viajes a Acapulco</h1>
+        <p>Visitando Acapulco en 2019, 2021 y 2024</p>
+    </header>
+    
+    <nav>
+         <lo><a href="">Acapulco 2019</a></lo>
+         <lo><a href="">Acapulco 2021</a></lo>
+         <lo><a href="">Acapulco 2024</a></lo>
+         <lo><a href="">Contacto</a></lo>
+    </nav>
+    
+    <main>
+        <section id="acapulco-2019">
+            <h2>Acapulco en 2017</h2>
+            <article>
+                <p>En 2015 en el mes de junio el dia 11 fue la primera vez que viaje a Acapulco con mi familia, 
+                    fue la primera vez que habia conocido la playa, tenia una edad de 12 años y en ese viaje conoci lo que fue la Quebrada, salimos a ver a los clavadistas y
+                siendo sincero hacia demasiado calor pues era verano. </p>
+                <img src="img/foto1.jpg" id="Foto1">
+            </article>
+        </section>
+
+        <section id="acapulco-2021">
+            <h2>Acapulco en 2021</h2>
+            <article>
+                <p>En este segundo viaje fuimos porque queriamos festejar mi cumpleaños alla, y pues aqui fue la primera vez que nos habian dado
+                    una habitacion muy alta,la vista al mar era muy buena pero esta vez estabamos en zona diamante y la arena era muy limpia,
+                    no habia mucha gente puesto que estaba la pandemia pero mi familia y yo eramos asintomaticos por eso decidimos ir aun asi teniamos
+                    nuestras precauciones.
+                    <img src="img/foto2.jpg" id="foto2">
+                </p>
+            </article>
+        </section>
+        
+        <section id="acapulco-2024">
+            <h2>Acapulco en 2024</h2>
+            <article>
+                <p>Tras el huracan Otis no pense que regresariamos tan pronto a Acapulco pues el desastre fue muy feo,
+                    pero mis tios como regalo de cumpleaños me invitaron a un fin de semana y llegando a la ciudad 
+                    aun siguen sacando escombros de los edificios y algunos comercios ahora ya no existen, la ciudad se sigue levantando
+                    poco a poco pero el viaje fue bonito, regresamos al mismo hotel al que la ultima vez nos hospedamos y la verdad la playa nomas 
+                    la ocuapabamos mis tios y otras 2 familias la verdad se disvruta mucho tener la playa para ti solito.
+                    <img src="img/foto3.jpg" id="foto3">
+                </p>
+            </article>
+        </section>
+        
+        <aside>
+            <h3>Hotel Copacabana </h3>
+            <p>Este fue el hotel en el que nos hospedamos</p>
+            <img src="img/foto4.jpg" id="foto4">
+        </aside>
+    </main>
+    
+    <footer id="contacto">
+        <p>Contacto: angelm@gmail.com</p>
+        <p>&copy;  Blog  Acapulco</p>
+        <form>
+            <h3>Contactame</h3>
+            <input type="text" placeholder="Nombre" required>
+            <input type="email" placeholder="Correo electrónico" required>
+            <textarea placeholder="Mensaje" rows="4" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </footer>
+</body>
+</html>
